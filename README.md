@@ -4,6 +4,10 @@
 
 ### [ブラウザで使う →](https://nexustide400.github.io/image-1280x720/)
 
+## スクリーンショット
+
+![1280 × 720 PNG Makerの画面](assets/screenshot.png)
+
 ## 特徴
 
 - 縦横比を保ったまま幅を1280pxへ変更
