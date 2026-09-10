@@ -26,7 +26,9 @@
     }
     main { width: min(1120px, calc(100% - 32px)); margin: 0 auto; padding: 48px 0 64px; }
     header { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 26px; }
+    .title-lockup { display: flex; align-items: center; gap: clamp(10px, 2vw, 22px); }
     h1 { margin: 0; font-size: clamp(2rem, 5vw, 4.2rem); line-height: .95; letter-spacing: -.055em; }
+    .title-image { width: clamp(96px, 14vw, 160px); height: auto; flex: none; filter: drop-shadow(0 12px 22px rgba(0, 0, 0, .28)); }
     header p { max-width: 390px; margin: 0; color: var(--muted); line-height: 1.7; }
     .grid { display: grid; grid-template-columns: 1fr 320px; gap: 18px; }
     .card { border: 1px solid var(--line); border-radius: 20px; background: rgba(21, 23, 28, .88); overflow: hidden; }
@@ -81,7 +83,10 @@
 <body>
   <main>
     <header>
-      <h1>1280 × 720<br>PNG Maker</h1>
+      <div class="title-lockup">
+        <h1>1280 × 720<br>PNG Maker</h1>
+        <img class="title-image" src="assets/title-characters.png" alt="冒険者のエルフ二人">
+      </div>
       <p>幅を1280pxに合わせ、はみ出した高さを720pxに切り抜き。画像は端末の中だけで処理されます。</p>
     </header>
     <section class="grid">
