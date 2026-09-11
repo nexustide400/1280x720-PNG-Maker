@@ -2,7 +2,7 @@
 
 画像を幅1280pxへリサイズし、高さ720pxへ切り抜いてPNG保存する、インストール不要のブラウザツールです。
 
-### [ブラウザで使う →](https://nexustide400.github.io/image-1280x720/)
+### [ブラウザで使う →](https://nexustide400.github.io/1280x720-PNG-Maker/)
 
 ## スクリーンショット
 
